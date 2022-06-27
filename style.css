@@ -1,0 +1,98 @@
+body {
+    background: rgb(36, 34, 34);
+
+    margin-top: 4rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: blueviolet;
+    box-shadow: 0px 2px 10px;
+    border-color: aliceblue;
+    border-radius: 5px;
+    
+    width: 450px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(63, 2, 71);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+ 
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(27, 26, 26);
+    margin-top: 0;
+    margin-bottom: 35px;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+    margin-left: 70px;
+    padding: 2px;
+}
+
+span {
+    color: rgb(89, 6, 100);
+    font-family: 'Nunito', sans-serif;
+    font-style: oblique;
+    margin-left: 10px;
+}
+
+#calcular {
+    background:rgb(63, 2, 71);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#calcular:hover {
+    background-color: rgb(89, 6, 100);
+    transition:all 0.3s;
+    transform: translate(0, 5%);
+}
+
+#resultado {
+
+    width: 400px;
+    height: 65px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    
+    background-color: white;
+    color: rgb(89, 6, 100);
+    border-radius: 3px;
+    padding: 4px;
+
+    display: flex;
+    margin: 35px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
