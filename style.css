@@ -94,7 +94,7 @@ span {
 }
 
 #calcular {
-  width: 80%;
+  width: 70%;
   background: rgb(212, 164, 5);
   color: rgb(8, 8, 8);
   border-radius: 10px;
@@ -115,7 +115,7 @@ span {
 
 #resultado {
   width: 80%;
-  height: 20%;
+  height: 25%;
   font-size: 1.2rem;
   font-weight: 600;
   background-color: #d4d1cdb4;
